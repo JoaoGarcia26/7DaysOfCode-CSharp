@@ -10,14 +10,15 @@ static void InvocarGet(string endpoint)
     
     if (response.StatusCode == System.Net.HttpStatusCode.OK)
     {
-        Console.WriteLine(response.Content);
+        var mascotes = JsonSerializer.Deserialize<Mascote>(response.Content!)!;
+        mascotes.ExibirDetalhes(); 
     } else
     {
         Console.WriteLine(response.ErrorMessage);
     }
 }
 
-InvocarGet("pikachu");
+InvocarGet("ivysaur");
 
 
 

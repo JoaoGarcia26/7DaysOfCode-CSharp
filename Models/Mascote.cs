@@ -1,25 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json.Serialization;
-using System.Threading.Tasks;
+﻿using System.Text.Json.Serialization;
 
 namespace _7DaysOfCode_C_.Models;
 
 internal class Mascote
 {
     [JsonPropertyName("name")]
-    public string Nome {get;set;}
+    public string? Nome { get; set; }
     [JsonPropertyName("height")]
-    public int Altura { get; set; }
+    public int? Altura { get; set; }
     [JsonPropertyName("weight")]
-    public int Peso { get;set;}
+    public int? Peso { get;set;}
     [JsonPropertyName("abilities")]
-    public Habilidades Habilidades { get;set;}
+    public List<Habilidades>? Habilidades { get; set; }
 
     public void ExibirDetalhes()
     {
-        Console.WriteLine($"Nome Pokemon: {Nome} \nAltura: {Altura} \nPeso: {Peso} \nHabilidades: {Habilidades.ExibirDetalhes} ");
+        List<string> list = new();
+        foreach (var item in Habilidades!)
+        {
+            list.Add(item.Habilidade.Nome);
+        }
+        Console.WriteLine($"Nome Pokemon: {Nome.ToUpper()} \nAltura: {Altura} \nPeso: {Peso} \nHabilidades: " +
+            $"{string.Join(", ", list).ToUpper()} ");
     }
 }
