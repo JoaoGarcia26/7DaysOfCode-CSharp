@@ -1,4 +1,5 @@
 ﻿using _7DaysOfCode_C_.Models;
+using _7DaysOfCode_C_.View;
 using RestSharp;
 using System.Text.Json;
 
@@ -11,7 +12,7 @@ static void InvocarGet(string endpoint)
     if (response.StatusCode == System.Net.HttpStatusCode.OK)
     {
         var mascotes = JsonSerializer.Deserialize<Mascote>(response.Content!)!;
-        mascotes.ExibirDetalhes(); 
+        mascotes.ExibirDetalhes();
     } else
     {
         Console.WriteLine(response.ErrorMessage);
