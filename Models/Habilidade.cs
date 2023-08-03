@@ -2,8 +2,12 @@
 
 namespace _7DaysOfCode_C_.Models;
 
-class Habilidade
+public class Habilidade
 {
+    public Habilidade() 
+    {
+        Nome = null;
+    }
     [JsonPropertyName("name")]
     public string? Nome { get; set; }
 }

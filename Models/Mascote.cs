@@ -2,8 +2,24 @@
 
 namespace _7DaysOfCode_C_.Models;
 
-internal class Mascote
+public class Mascote
 {
+    public Mascote()
+    {
+        Nome = null;
+        Altura = null;
+        Peso = null;
+        Habilidades = null;
+    }
+
+    public Mascote(Mascote mascote)
+    {
+        Nome = mascote.Nome;
+        Altura= mascote.Altura;
+        Peso = mascote.Peso;
+        Habilidades = mascote.Habilidades;
+    }
+
     [JsonPropertyName("name")]
     public string? Nome { get; set; }
     [JsonPropertyName("height")]
@@ -13,14 +29,4 @@ internal class Mascote
     [JsonPropertyName("abilities")]
     public List<Habilidades>? Habilidades { get; set; }
 
-    public void ExibirDetalhes()
-    {
-        List<string> list = new();
-        foreach (var item in Habilidades!)
-        {
-            list.Add(item.Habilidade.Nome);
-        }
-        Console.WriteLine($"Nome Pokemon: {Nome.ToUpper()} \nAltura: {Altura} \nPeso: {Peso} \nHabilidades: " +
-            $"{string.Join(", ", list).ToUpper()} ");
-    }
 }
