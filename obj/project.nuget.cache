@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "2NLril56I+jnwuXXMMfEmKK818+Ik9++4OpTE0Qw/Sd2AZysMqfD84TX+CbYt3O4tqmIfubG0Hz3tD3d6ePJyw==",
+  "dgSpecHash": "IkNMG8DFPfzp/YMF/F5eZaj0l6vYFvrBixNUM56YPTlt6qFXhhGyk01Bc39Hio7KN1eDwISyCHgleivCYJByCg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Particular\\source\\repos\\7DaysOfCode-C#\\7DaysOfCode-C#\\7DaysOfCode-C#.csproj",
+  "projectFilePath": "C:\\Users\\João Victor\\Documents\\GitHub\\7DaysOfCode-CSharp\\7DaysOfCode-C#.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Particular\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
-    "C:\\Users\\Particular\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "C:\\Users\\Particular\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
-    "C:\\Users\\Particular\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
+    "C:\\Users\\João Victor\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
+    "C:\\Users\\João Victor\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\João Victor\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\João Victor\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
   ],
   "logs": []
 }

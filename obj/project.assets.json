@@ -236,23 +236,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Particular\\.nuget\\packages\\": {},
+    "C:\\Users\\João Victor\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Particular\\source\\repos\\7DaysOfCode-C#\\7DaysOfCode-C#\\7DaysOfCode-C#.csproj",
+      "projectUniqueName": "C:\\Users\\João Victor\\Documents\\GitHub\\7DaysOfCode-CSharp\\7DaysOfCode-C#.csproj",
       "projectName": "7DaysOfCode-C#",
-      "projectPath": "C:\\Users\\Particular\\source\\repos\\7DaysOfCode-C#\\7DaysOfCode-C#\\7DaysOfCode-C#.csproj",
-      "packagesPath": "C:\\Users\\Particular\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Particular\\source\\repos\\7DaysOfCode-C#\\7DaysOfCode-C#\\obj\\",
+      "projectPath": "C:\\Users\\João Victor\\Documents\\GitHub\\7DaysOfCode-CSharp\\7DaysOfCode-C#.csproj",
+      "packagesPath": "C:\\Users\\João Victor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\João Victor\\Documents\\GitHub\\7DaysOfCode-CSharp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Particular\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\João Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -300,7 +300,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

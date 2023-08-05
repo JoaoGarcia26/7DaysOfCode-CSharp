@@ -19,7 +19,7 @@ internal class TamagotchiService
         }
         else
         {
-            throw new NotImplementedException(response.ErrorMessage);
+            throw new NotImplementedException(response.ErrorMessage + " | Sem conexão com a internet");
         }
     }
 }

@@ -1,20 +1,22 @@
-﻿using _7DaysOfCode_C_.Models;
-using _7DaysOfCode_C_.Service;
-using _7DaysOfCode_C_.View;
+﻿using _7DaysOfCode_C_.View;
 
 namespace _7DaysOfCode_C_.Controller;
 
 public class TamagotchiController
 {
     private TamagotchiLoginController tamagotchiLoginController;
-    private TamagotchiService tamagotchiService;
+    private TamagotchiAdoptController tamagotchiAdoptController;
+    private TamagotchiInteractionController tamagotchiInteractionController;
     private TamagotchiView tamagotchiView;
+
     public TamagotchiController()
     {
         tamagotchiLoginController = new TamagotchiLoginController();
-        tamagotchiService = new TamagotchiService();
+        tamagotchiAdoptController = new TamagotchiAdoptController();
+        tamagotchiInteractionController = new TamagotchiInteractionController();
         tamagotchiView = new TamagotchiView();
     }
+
     public void Jogar()
     {
         int opcao;
@@ -44,9 +46,9 @@ public class TamagotchiController
                         //ADOTAR
                         case 2:
                             
-                            if (tamagotchiLoginController.usuario.MascoteAdotado == null)
+                            if (tamagotchiLoginController.Usuario.MascoteAdotado == null)
                             {
-                                tamagotchiLoginController.usuario.MascoteAdotado = AdotarMascote(opcaoMascote);
+                                tamagotchiLoginController.Usuario.MascoteAdotado = tamagotchiAdoptController.AdotarMascote(opcaoMascote);
                             }
                         break;
                         //VOLTAR
@@ -60,9 +62,9 @@ public class TamagotchiController
                 break;
                 //ADOTAR
                 case 2:
-                    if (tamagotchiLoginController.usuario.MascoteAdotado != null)
+                    if (tamagotchiLoginController.Usuario.MascoteAdotado != null)
                     {
-                        tamagotchiView.ExibirDescricaoCompletaMascote(tamagotchiLoginController.usuario.MascoteAdotado);
+                        tamagotchiInteractionController.MenuInteracao(userName, tamagotchiLoginController.Usuario.MascoteAdotado);
                     }
                     else
                     {
@@ -83,30 +85,5 @@ public class TamagotchiController
         }
     }
 
-    public Mascote AdotarMascote(int opcaoMascote)
-    {
-        Mascote mascote;
-        switch (opcaoMascote)
-        {
-            case 1:
-                mascote = new Mascote(tamagotchiService.InvocarGet("bulbasaur"));
-                tamagotchiView.MenuAdotarMascoteSucesso();
-                break;
-            case 2:
-                mascote = new Mascote(tamagotchiService.InvocarGet("charmander"));
-                tamagotchiView.MenuAdotarMascoteSucesso();
-                break;
-            case 3:
-                mascote = new Mascote(tamagotchiService.InvocarGet("squirtle"));
-                tamagotchiView.MenuAdotarMascoteSucesso();
-                break;
-            case 4:
-                mascote = new Mascote(tamagotchiService.InvocarGet("pikachu"));
-                tamagotchiView.MenuAdotarMascoteSucesso();
-                break;
-            default:
-                throw new NotImplementedException("Opção Invalida!");
-        }
-        return mascote;
-    }
+    
 }

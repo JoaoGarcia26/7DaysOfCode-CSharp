@@ -6,16 +6,16 @@ namespace _7DaysOfCode_C_.Controller;
 internal class TamagotchiLoginController
 {
     private TamagotchiView tamagotchiView;
-    public Usuario usuario { get; set;}
+    public Usuario Usuario { get; set;}
     public TamagotchiLoginController()
     {
         tamagotchiView = new TamagotchiView();
-        usuario = new Usuario();
+        Usuario = new Usuario();
     }
     public string Login()
     {
         tamagotchiView.MenuLogin();
-        usuario.Nome = Console.ReadLine();
-        return usuario.Nome;
+        Usuario.Nome = Console.ReadLine();
+        return Usuario.Nome;
     }
 }

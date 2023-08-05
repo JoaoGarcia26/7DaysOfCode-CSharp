@@ -18,3 +18,23 @@ C:\Users\Particular\source\repos\7DaysOfCode-C#\7DaysOfCode-C#\obj\Debug\net6.0\
 C:\Users\Particular\source\repos\7DaysOfCode-C#\7DaysOfCode-C#\obj\Debug\net6.0\7DaysOfCode-C#.pdb
 C:\Users\Particular\source\repos\7DaysOfCode-C#\7DaysOfCode-C#\obj\Debug\net6.0\7DaysOfCode-C#.genruntimeconfig.cache
 C:\Users\Particular\source\repos\7DaysOfCode-C#\7DaysOfCode-C#\obj\Debug\net6.0\ref\7DaysOfCode-C#.dll
+C:\Users\João Victor\Documents\GitHub\7DaysOfCode-CSharp\bin\Debug\net6.0\7DaysOfCode-C#.exe
+C:\Users\João Victor\Documents\GitHub\7DaysOfCode-CSharp\bin\Debug\net6.0\7DaysOfCode-C#.deps.json
+C:\Users\João Victor\Documents\GitHub\7DaysOfCode-CSharp\bin\Debug\net6.0\7DaysOfCode-C#.runtimeconfig.json
+C:\Users\João Victor\Documents\GitHub\7DaysOfCode-CSharp\bin\Debug\net6.0\7DaysOfCode-C#.dll
+C:\Users\João Victor\Documents\GitHub\7DaysOfCode-CSharp\bin\Debug\net6.0\7DaysOfCode-C#.pdb
+C:\Users\João Victor\Documents\GitHub\7DaysOfCode-CSharp\bin\Debug\net6.0\RestSharp.dll
+C:\Users\João Victor\Documents\GitHub\7DaysOfCode-CSharp\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\João Victor\Documents\GitHub\7DaysOfCode-CSharp\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\João Victor\Documents\GitHub\7DaysOfCode-CSharp\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\João Victor\Documents\GitHub\7DaysOfCode-CSharp\obj\Debug\net6.0\7DaysOfCode-C#.csproj.AssemblyReference.cache
+C:\Users\João Victor\Documents\GitHub\7DaysOfCode-CSharp\obj\Debug\net6.0\7DaysOfCode-C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\João Victor\Documents\GitHub\7DaysOfCode-CSharp\obj\Debug\net6.0\7DaysOfCode-C#.AssemblyInfoInputs.cache
+C:\Users\João Victor\Documents\GitHub\7DaysOfCode-CSharp\obj\Debug\net6.0\7DaysOfCode-C#.AssemblyInfo.cs
+C:\Users\João Victor\Documents\GitHub\7DaysOfCode-CSharp\obj\Debug\net6.0\7DaysOfCode-C#.csproj.CoreCompileInputs.cache
+C:\Users\João Victor\Documents\GitHub\7DaysOfCode-CSharp\obj\Debug\net6.0\7DaysOfCode-C#.csproj.CopyComplete
+C:\Users\João Victor\Documents\GitHub\7DaysOfCode-CSharp\obj\Debug\net6.0\7DaysOfCode-C#.dll
+C:\Users\João Victor\Documents\GitHub\7DaysOfCode-CSharp\obj\Debug\net6.0\refint\7DaysOfCode-C#.dll
+C:\Users\João Victor\Documents\GitHub\7DaysOfCode-CSharp\obj\Debug\net6.0\7DaysOfCode-C#.pdb
+C:\Users\João Victor\Documents\GitHub\7DaysOfCode-CSharp\obj\Debug\net6.0\7DaysOfCode-C#.genruntimeconfig.cache
+C:\Users\João Victor\Documents\GitHub\7DaysOfCode-CSharp\obj\Debug\net6.0\ref\7DaysOfCode-C#.dll
