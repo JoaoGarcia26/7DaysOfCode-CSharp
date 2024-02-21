@@ -4,3 +4,6 @@
 O objetivo final da aplicação será imprimir todas as interações do usuário com o Tamagotchi na linha de comando. 
 Explicando melhor, iremos utilizar a API Pokémon para buscar os pokémons que serão mascotes e implementar interações com eles através de comunicação com a API, 
 utilizando o JSON obtido.
+
+![Tama01](https://github.com/JoaoGarcia26/7DaysOfCode-CSharp/assets/89228584/95cfffaa-4f45-438f-8b30-5eaecbc0a0f9)
+
